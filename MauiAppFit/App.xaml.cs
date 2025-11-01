@@ -1,4 +1,4 @@
-﻿using MauiAppFit.Helpers
+﻿using MauiAppFit.Helpers;
 
     
 namespace MauiAppFit

@@ -12,9 +12,8 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Orientation="Horizontal"
-                         <SearchBar Placeholder="Busque por descrição"
-                                    Text="{Binding ParametroBusca }"/>
+            <StackLayout Orientation="Horizontal">
+                <SearchBar Placeholder="Busque por descrição" Text="{Binding ParametroBusca }"/>
                 <Button Text="Buscar" Command="{Binding BUscar}"/>
             </StackLayout>
 

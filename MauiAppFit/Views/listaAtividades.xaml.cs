@@ -6,6 +6,7 @@ public partial class listaAtividades : ContentPage
 	public listaAtividades()
 	{
 		BindingContext = new ListaAtividadesViewModel();
+
 		InitializeComponent();
 	}
 
